@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteOffline.Master.cs" Inherits="GARMCO.AMS.B2B.eTendering.Website.CommonObject.SiteOffline" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GARMCO e-Tendering System</title>
+</head>
+<body onload="SetDateTime();ConfigureClientHeight();" onresize="ConfigureClientHeight();">
+    <form id="form" runat="server">
+		<asp:ScriptManager ID="scriptMngr" runat="server">
+			<Scripts>
+				<asp:ScriptReference Path="~/Scripts/script.js" />
+			</Scripts>
+		</asp:ScriptManager>
+		<telerik:RadAjaxManager ID="ajaxMngr" runat="server" OnAjaxRequest="ajaxMngr_AjaxRequest" />
+		<telerik:RadWindowManager ID="winMngr" runat="server" Skin="Windows7" Behaviors="Resize, Minimize, Close, Maximize, Move" DestroyOnClose="True" Modal="True" RestrictionZoneID="mainBody" VisibleStatusbar="False" />
+		<telerik:RadFormDecorator ID="formDecor" runat="server" Skin="Windows7" />
+		<table border="0" class="headerBackground">
+			<tr>
+				<td rowspan="2" style="width: 80px;">
+					<img alt="" src="../includes/images/garmco_logo.png" style="border-style: none;" />
+				</td>
+				<td class="LabelApplication" style="width: 450px;">
+					GARMCO e-Tendering System
+				</td>
+				<td>
+					<div id="currentDateTime">Saturday, 05 March 2011 09:10 am (GMT +3)</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="LabelCompany">
+					GULF ALUMINIUM ROLLING MILL CO. B.S.C. &copy;
+				</td>
+				<td class="LabelUserTitle" style="display: none">
+					<asp:LoginView ID="loginView" runat="server">
+						<AnonymousTemplate>
+							<span>
+								[ <asp:HyperLink ID="lnkDefault" runat="server" CssClass="Menulink" NavigateUrl="~/Default.aspx" Text="Log In" /> ]
+								[ <asp:HyperLink ID="lnkRegister" runat="server" CssClass="Menulink" NavigateUrl="~/Register.aspx" Text="Register" /> ]
+								[ <asp:HyperLink ID="lnkFeedback" runat="server" CssClass="Menulink" NavigateUrl="~/ContactUs.aspx" Text="Contact Us" /> ]
+								[ <asp:HyperLink ID="lnkUserManual" runat="server" CssClass="Menulink" NavigateUrl="~/e-Tendering FAQ.pdf" Target="_blank" Text="Supplier's User Manual" /> ]
+							</span>
+						</AnonymousTemplate>
+						<LoggedInTemplate>
+							<span>
+								Welcome <asp:LoginName ID="loginName" runat="server" />!&nbsp;
+								[ <asp:LoginStatus ID="logOut" runat="server" CssClass="Menulink" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/" OnLoggingOut="logOut_LoggingOut" /> ] 
+								[ <asp:HyperLink ID="lnkFeedback" runat="server" CssClass="Menulink" NavigateUrl="~/ContactUs.aspx" Text="Contact Us" /> ]
+								[ <asp:HyperLink ID="lnkUserManual" runat="server" CssClass="Menulink" NavigateUrl="~/e-Tendering FAQ.pdf" Target="_blank" Text="Supplier's User Manual" /> ]
+							</span>
+						</LoggedInTemplate>
+					</asp:LoginView>
+				</td>
+			</tr>
+		</table>
+		<div style="background-color: #000000; float: right; vertical-align: top; width: 100%; z-index: 9000000;">
+			<asp:LoginView ID="loginViewMenu" runat="server">
+				<AnonymousTemplate></AnonymousTemplate>
+				<LoggedInTemplate>
+					<telerik:RadMenu ID="mainMenu" runat="server" CausesValidation="False" Skin="Black" Width="100%">
+						<Items>
+							<%--<telerik:RadMenuItem runat="server" NavigateUrl="~/Account/Default.aspx" Text="Home" />--%>
+							<telerik:RadMenuItem runat="server" NavigateUrl="~/Account/PublishedRFQView.aspx" Text="Published RFQs" />
+							<telerik:RadMenuItem runat="server" NavigateUrl="~/Account/Profile.aspx" Text="Profile" />
+						</Items>
+					</telerik:RadMenu>
+				</LoggedInTemplate>
+			</asp:LoginView>
+		</div>
+		<hr style="background-color: #3366CC; height: 5px; vertical-align: top; width: 100%;" />
+		<table border="0" style="table-layout: fixed; width: 100%;">
+			<tr>
+				<td id="mainBody" runat="server" style="vertical-align: top; width: 100%">
+					<asp:ContentPlaceHolder ID="mainContent" runat="server">
+					</asp:ContentPlaceHolder>
+				</td>
+			</tr>
+			<tr>
+				<td id="footer">
+					Copyright &copy; 2010 ~ 2013 Gulf Aluminium Rolling Mill Co. B.S.C. &copy;<br />
+					Powered By GARMCO ICT Department (Best viewed with 1024x768 resolution)
+				</td>
+			</tr>
+		</table>
+		<input type="hidden" id="hidSearchUrl" runat="server" value="" />
+    </form>
+</body>
+</html>

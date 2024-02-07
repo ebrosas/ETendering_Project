@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<message>
+	&lt;b&gt;Note:&lt;/b&gt; This is an auto-generated email, please do not reply.
+
+
+	Dear {0}:
+
+	Attached is your current bid for RFQ {1} for your reference, please review and update it if necessary.
+	
+	Yours sincerely,
+	&lt;b&gt;GARMCO Customer Service&lt;/b&gt;
+	&lt;a href="www.garmco.com"&gt;www.garmco.com&lt;/a&gt;
+	&lt;a href="https://etendering.garmco.com"&gt;https://etendering.garmco.com&lt;/a&gt;
+</message>

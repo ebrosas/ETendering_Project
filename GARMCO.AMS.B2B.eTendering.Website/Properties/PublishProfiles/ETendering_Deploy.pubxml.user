@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\NET Projects\eTendering_Hussain\eTendering\Deployment</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/ClosedCallForTenders.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/Default.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/JDEUpload/Empty.txt">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/PlaceTender.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/Profile.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/Profile/Empty.txt">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/PublishedRFQView.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/ReviseTender.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/SupplierContact.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/SupplierOrderAlternative.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/SupplierOrderAttachment.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/SupplierUpload/Empty.txt">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/ViewTender.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Activation.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="App_Themes/Standard/Standard.skin">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="App_Themes/Standard/stylesheet.css">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>07/22/2016 14:52:40</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.Admin.DAL.dll">
+      <publishTime>05/05/2021 10:47:10</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.DAL.dll">
+      <publishTime>05/05/2021 10:47:10</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.eTendering.DAL.dll">
+      <publishTime>05/05/2021 10:47:10</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.eTendering.Website.dll">
+      <publishTime>05/05/2021 10:49:37</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.Report.dll">
+      <publishTime>05/05/2021 10:47:12</publishTime>
+    </File>
+    <File Include="bin/GARMCO.AMS.B2B.Utility.dll">
+      <publishTime>05/05/2021 10:47:09</publishTime>
+    </File>
+    <File Include="bin/GARMCO.Common.DAL.Employee.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="bin/GARMCO.Common.Object.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="bin/GARMCO.Common.Utility.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="bin/Infrastructure.dll">
+      <publishTime>05/05/2021 10:47:09</publishTime>
+    </File>
+    <File Include="bin/SautinSoft.HtmlToRtf.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="bin/SautinSoft.RtfToHtml.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.WebForms.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="CommonObject/ConfirmDialog.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/FileHandler.ashx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/OrderPrint.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/RFQDetailAttachment.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/SexySite.Master">
+      <publishTime>04/29/2021 12:06:07</publishTime>
+    </File>
+    <File Include="CommonObject/Site.Master">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/SiteOffline.Master">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/SuccessDialog.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/SupplierProdServLookup.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/UnderMaintenance.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="CommonObject/Web.config">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="ContactUs.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>04/29/2021 11:14:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>04/29/2021 11:14:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>04/29/2021 11:14:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>10/03/2018 08:32:43</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>10/03/2018 08:32:43</publishTime>
+    </File>
+    <File Include="css/factoryplus-icons.css">
+      <publishTime>10/03/2018 08:32:42</publishTime>
+    </File>
+    <File Include="css/flaticon.css">
+      <publishTime>10/03/2018 08:32:41</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>10/03/2018 08:32:41</publishTime>
+    </File>
+    <File Include="css/frontend.css">
+      <publishTime>10/03/2018 08:32:39</publishTime>
+    </File>
+    <File Include="css/hover.css">
+      <publishTime>10/03/2018 08:32:40</publishTime>
+    </File>
+    <File Include="css/login.html">
+      <publishTime>10/03/2018 08:32:38</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>10/03/2018 08:32:36</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>10/03/2018 08:32:37</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/29/2021 12:08:04</publishTime>
+    </File>
+    <File Include="e-Tendering FAQ.pdf">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="ErrorMessage.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="fonts/flaticon.css">
+      <publishTime>10/03/2018 08:33:03</publishTime>
+    </File>
+    <File Include="fonts/flaticon.eot">
+      <publishTime>10/03/2018 08:33:24</publishTime>
+    </File>
+    <File Include="fonts/flaticon.html">
+      <publishTime>10/03/2018 08:32:59</publishTime>
+    </File>
+    <File Include="fonts/flaticon.otf">
+      <publishTime>10/03/2018 08:32:57</publishTime>
+    </File>
+    <File Include="fonts/flaticon.svg">
+      <publishTime>10/03/2018 08:33:25</publishTime>
+    </File>
+    <File Include="fonts/flaticon.ttf">
+      <publishTime>10/03/2018 08:33:22</publishTime>
+    </File>
+    <File Include="fonts/flaticon.woff">
+      <publishTime>10/03/2018 08:33:22</publishTime>
+    </File>
+    <File Include="fonts/flaticon.woff2">
+      <publishTime>10/03/2018 08:32:51</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>10/03/2018 08:32:50</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>10/03/2018 08:32:50</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>10/03/2018 08:32:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>10/03/2018 08:32:46</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>10/03/2018 08:32:46</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>10/03/2018 08:33:09</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Bold.eot">
+      <publishTime>10/03/2018 08:33:07</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Bold.otf">
+      <publishTime>10/03/2018 08:33:07</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Bold.ttf">
+      <publishTime>10/03/2018 08:33:06</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Bold.woff">
+      <publishTime>10/03/2018 08:33:05</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Book.eot">
+      <publishTime>10/03/2018 08:33:05</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Book.ttf">
+      <publishTime>10/03/2018 08:33:04</publishTime>
+    </File>
+    <File Include="fonts/GothamHTF-Book.woff">
+      <publishTime>10/03/2018 08:33:03</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="garmcotc.pdf">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/add_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/add_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/attach_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/attach_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/attach_small_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/attach_small_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/delete_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/delete_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/edit_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/exception.jpg">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/garmco_logo.jpg">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/headerbk.jpg">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/login.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/logo.jpg">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/noaccess.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/search.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/toolFile_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/toolFile_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/toolText_f1.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/toolText_f3.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/under_maintenance.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/images/warning.gif">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="includes/TextToolFile.xml">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>04/29/2021 11:07:22</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>10/03/2018 08:33:33</publishTime>
+    </File>
+    <File Include="js/jquery-1.12.4.min.js">
+      <publishTime>10/03/2018 08:33:33</publishTime>
+    </File>
+    <File Include="js/owl.js">
+      <publishTime>10/03/2018 08:33:32</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>10/03/2018 08:33:31</publishTime>
+    </File>
+    <File Include="js/scripts.min.js">
+      <publishTime>10/03/2018 08:33:30</publishTime>
+    </File>
+    <File Include="js/validate.js">
+      <publishTime>10/03/2018 08:33:30</publishTime>
+    </File>
+    <File Include="Lib/GARMCO.Common.DAL.Employee.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Lib/GARMCO.Common.Object.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Lib/GARMCO.Common.Utility.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Lib/SautinSoft.HtmlToRtf.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Lib/SautinSoft.RtfToHtml.dll">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Lib/Telerik.Reporting.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Lib/Telerik.ReportViewer.WebForms.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Lib/Telerik.Web.UI.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Lib/Telerik.Web.UI.Skins.dll">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/FeedbackAcknowledgement.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/ForgotPassword.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/Registration.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/RegistrationSuccess.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/SupplierBid.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Messages/TechnicalSupport.xml">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/29/2021 12:04:53</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/05/2021 10:49:52</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>04/29/2021 11:14:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/29/2021 11:14:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>04/29/2021 11:14:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/29/2021 11:14:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>04/29/2021 11:14:25</publishTime>
+    </File>
+    <File Include="Scripts/contact.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>04/29/2021 11:14:23</publishTime>
+    </File>
+    <File Include="Scripts/index.js.flow">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.js">
+      <publishTime>04/29/2021 12:04:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.min.js">
+      <publishTime>04/29/2021 12:04:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.min.map">
+      <publishTime>04/29/2021 12:04:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.slim.js">
+      <publishTime>04/29/2021 12:04:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.slim.min.js">
+      <publishTime>04/29/2021 12:04:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.5.0.slim.min.map">
+      <publishTime>04/29/2021 12:04:52</publishTime>
+    </File>
+    <File Include="Scripts/orderPrint.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/rfqattachment.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/script.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>04/29/2021 11:14:17</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>04/29/2021 11:14:16</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>04/29/2021 11:14:15</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>04/29/2021 11:14:14</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>04/29/2021 11:14:13</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/supplierOrderAlt.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/supplierProdServ.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.flow">
+      <publishTime>04/29/2021 11:14:12</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>04/29/2021 11:14:11</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>04/29/2021 11:14:11</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>04/29/2021 11:14:11</publishTime>
+    </File>
+    <File Include="Scripts/warning.js">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Success.aspx">
+      <publishTime>04/28/2021 10:41:20</publishTime>
+    </File>
+    <File Include="Temp/Empty.txt">
+      <publishTime>04/28/2021 10:41:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/05/2021 10:49:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

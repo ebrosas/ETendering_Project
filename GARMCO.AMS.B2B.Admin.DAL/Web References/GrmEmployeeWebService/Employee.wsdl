@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.garmco.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.garmco.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;b&gt;This is part of the web services available from GARMCO that can be use across different projects or systems.&lt;/b&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.garmco.com/">
+      <s:element name="GetEmployeeByDomainName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmployeeByDomainNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmployeeByDomainNameResult" type="tns:EmployeeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EmployeeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FullName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CostCenter" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CostCenterName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateOfBirth" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Gender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Destination" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PayGrade" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeClass" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketClass" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PositionID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PositionDesc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupervisorEmpNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupervisorEmpName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupervisorLeaveReason" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SuperintendentEmpNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SuperintendentEmpName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ManagerEmpNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ManagerEmpName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetEmployeeByEmpNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="employeeNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmployeeByEmpNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmployeeByEmpNoResult" type="tns:EmployeeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmployeeList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetEmployeeListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmployeeListResult" type="tns:ArrayOfEmployeeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEmployeeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EmployeeInfo" nillable="true" type="tns:EmployeeInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="retError" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:EmployeeInfo" />
+            <s:element minOccurs="1" maxOccurs="1" name="retError" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetEmployeeByDomainNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByDomainName" />
+  </wsdl:message>
+  <wsdl:message name="GetEmployeeByDomainNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByDomainNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmployeeByEmpNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByEmpNo" />
+  </wsdl:message>
+  <wsdl:message name="GetEmployeeByEmpNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByEmpNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmployeeListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmployeeList" />
+  </wsdl:message>
+  <wsdl:message name="GetEmployeeListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmployeeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EmployeeSoap">
+    <wsdl:operation name="GetEmployeeByDomainName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web method retrieves information of the employee from LDAP using the domain account name.&lt;br&gt;It retuns an EmployeeInfo object if successful, otherwise null.</wsdl:documentation>
+      <wsdl:input message="tns:GetEmployeeByDomainNameSoapIn" />
+      <wsdl:output message="tns:GetEmployeeByDomainNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeByEmpNo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web method retrieves information of the employee from LDAP using the employee no.&lt;br&gt;It retuns an EmployeeInfo object if successful, otherwise null.</wsdl:documentation>
+      <wsdl:input message="tns:GetEmployeeByEmpNoSoapIn" />
+      <wsdl:output message="tns:GetEmployeeByEmpNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web method retrieves all employees from the Active Directory.&lt;br&gt;It retuns a list of EmployeeInfo (List&lt;EmployeeInfo&gt;) if successful, otherwise an empty list.</wsdl:documentation>
+      <wsdl:input message="tns:GetEmployeeListSoapIn" />
+      <wsdl:output message="tns:GetEmployeeListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web method verifies the current login user</wsdl:documentation>
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmployeeSoap" type="tns:EmployeeSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetEmployeeByDomainName">
+      <soap:operation soapAction="http://www.garmco.com/GetEmployeeByDomainName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeByEmpNo">
+      <soap:operation soapAction="http://www.garmco.com/GetEmployeeByEmpNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeList">
+      <soap:operation soapAction="http://www.garmco.com/GetEmployeeList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://www.garmco.com/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmployeeSoap12" type="tns:EmployeeSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetEmployeeByDomainName">
+      <soap12:operation soapAction="http://www.garmco.com/GetEmployeeByDomainName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeByEmpNo">
+      <soap12:operation soapAction="http://www.garmco.com/GetEmployeeByEmpNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeList">
+      <soap12:operation soapAction="http://www.garmco.com/GetEmployeeList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://www.garmco.com/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Employee">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;b&gt;This is part of the web services available from GARMCO that can be use across different projects or systems.&lt;/b&gt;</wsdl:documentation>
+    <wsdl:port name="EmployeeSoap" binding="tns:EmployeeSoap">
+      <soap:address location="http://grmgap01:8080/Employee.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EmployeeSoap12" binding="tns:EmployeeSoap12">
+      <soap12:address location="http://grmgap01:8080/Employee.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

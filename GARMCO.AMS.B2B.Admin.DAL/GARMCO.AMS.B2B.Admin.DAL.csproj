@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{690B5A01-7695-46EB-951F-D1D57B4BA8B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GARMCO.AMS.B2B.Admin.DAL</RootNamespace>
+    <AssemblyName>GARMCO.AMS.B2B.Admin.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GARMCO.Common.Object, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\GARMCO.Common.Object.dll</HintPath>
+    </Reference>
+    <Reference Include="GARMCO.Common.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\GARMCO.Common.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\BLLookup.cs" />
+    <Compile Include="App_Code\PublishedRFQDetailAttachItem.cs" />
+    <Compile Include="App_Code\PublishedRFQDetailItem.cs" />
+    <Compile Include="App_Code\PublishedRFQInvitedSupplierContactItem.cs" />
+    <Compile Include="App_Code\PublishedRFQInvitedSupplierItem.cs" />
+    <Compile Include="App_Code\ReferenceBLL.cs" />
+    <Compile Include="App_Code\PublishedRFQItem.cs" />
+    <Compile Include="App_Code\StockMonthIssuedItem.cs" />
+    <Compile Include="App_Code\StockPOItem.cs" />
+    <Compile Include="App_Code\SupplierOrderRequisitionItem.cs" />
+    <Compile Include="App_Code\TenderSessionAttendeeItem.cs" />
+    <Compile Include="Models\JdeSupplier.cs" />
+    <Compile Include="Models\OrderRequisitionDetail.cs" />
+    <Compile Include="Models\DetailAttachment.cs" />
+    <Compile Include="Models\PublishedRFQ.cs" />
+    <Compile Include="Models\TenderSessionHistory.cs" />
+    <Compile Include="Models\PublishedRFQInvitedSupplier.cs" />
+    <Compile Include="Models\PublishedRFQDetail.cs" />
+    <Compile Include="Repositories\PublishedRFQDetailRepository.cs" />
+    <Compile Include="Models\PublishedRFQInvitedSupplierContact.cs" />
+    <Compile Include="Repositories\PublishedRfqInvitedSupplierContactRepository.cs" />
+    <Compile Include="Repositories\PublishedRFQInvitedSupplierRepository.cs" />
+    <Compile Include="Repositories\PublishedRFQRepository.cs" />
+    <Compile Include="Repositories\SupplierSelectionRepository.cs" />
+    <Compile Include="Repositories\TenderSessionHistoryRepository.cs" />
+    <Compile Include="Repositories\OrderRequisitionDetailAttachmentRepository.cs" />
+    <Compile Include="Repositories\OrderRequisitionDetailRepository.cs" />
+    <Compile Include="Repositories\JdeSupplierRepository.cs" />
+    <Compile Include="Models\Status.cs" />
+    <Compile Include="Models\OrderRequisition.cs" />
+    <Compile Include="Models\OrderRequisitionHistory.cs" />
+    <Compile Include="Repositories\OrderRequisitionHistoryRepository.cs" />
+    <Compile Include="Repositories\OrderRequisitionRepository.cs" />
+    <Compile Include="Models\RFQNote.cs" />
+    <Compile Include="Models\PublishedRfqDetailAttachment.cs" />
+    <Compile Include="Repositories\PublishedRfqDetailAttachmentRepository.cs" />
+    <Compile Include="Repositories\RFQNoteRepository.cs" />
+    <Compile Include="Repositories\StatusRepository.cs" />
+    <Compile Include="Entities\PublishedRFQInvitedSupplierEntity.cs" />
+    <Compile Include="Entities\SupplierEntity.cs" />
+    <Compile Include="Helpers\ADONetDataService.cs" />
+    <Compile Include="Helpers\ADONetParameter.cs" />
+    <Compile Include="Helpers\DALHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SupplierInvBidded.cs" />
+    <Compile Include="Models\StockItem.cs" />
+    <Compile Include="Models\StockItemHistory.cs" />
+    <Compile Include="Repositories\StockItemHistoryRepository.cs" />
+    <Compile Include="Repositories\StockItemRepository.cs" />
+    <Compile Include="Repositories\SupplierInvitedBiddedRepository.cs" />
+    <Compile Include="Models\SupplierOrderRequisition.cs" />
+    <Compile Include="Repositories\SupplierOrderRequisitionRepository.cs" />
+    <Compile Include="Models\TenderSession.cs" />
+    <Compile Include="Models\TenderSessionAttendee.cs" />
+    <Compile Include="Repositories\TenderSessionAttendeeRepository.cs" />
+    <Compile Include="Repositories\TenderSessionRepository.cs" />
+    <Compile Include="Models\TenderSessionRFQ.cs" />
+    <Compile Include="Repositories\TenderSessionRFQRepository.cs" />
+    <Compile Include="Web References\GrmEmployeeWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\GrmEmployeeWebService\Employee.wsdl" />
+    <None Include="Web References\GrmEmployeeWebService\EmployeeInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\GrmEmployeeWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Utility\GARMCO.AMS.B2B.Utility.csproj">
+      <Project>{cdd01b68-c40d-4869-a64b-80952f4e3f3e}</Project>
+      <Name>GARMCO.AMS.B2B.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
+      <Project>{40fe0040-0cb1-4c39-8802-e260758f810f}</Project>
+      <Name>Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://grmgap01:8080/Employee.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\GrmEmployeeWebService\</RelPath>
+      <UpdateFromURL>http://grmgap01:8080/Employee.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>GARMCO_AMS_B2B_Admin_DAL_GrmEmployeeWebService_Employee</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\GrmEmployeeWebService\Employee.disco" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Lib\GARMCO.Common.Object.dll" />
+    <Content Include="Lib\GARMCO.Common.Utility.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

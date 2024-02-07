@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D635376-B43E-4D84-A68F-12BFDAA34FC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GARMCO.AMS.B2B.Report</RootNamespace>
+    <AssemblyName>GARMCO.AMS.B2B.Report</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GARMCO.Common.Object, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\GARMCO.Common.Object.dll</HintPath>
+    </Reference>
+    <Reference Include="GARMCO.Common.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\GARMCO.Common.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=10.2.16.1025, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=10.2.16.1025, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="eTendering\SupplierBidTenderCommitteeRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\SupplierBidTenderCommitteeRep.Designer.cs">
+      <DependentUpon>SupplierBidTenderCommitteeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eTendering\SupplierBidRecommendedRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\SupplierBidRecommendedRep.Designer.cs">
+      <DependentUpon>SupplierBidRecommendedRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eTendering\PublishedRFQSupplierRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\PublishedRFQSupplierRep.Designer.cs">
+      <DependentUpon>PublishedRFQSupplierRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eTendering\SupplierBidBySupplierRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\SupplierBidBySupplierRep.Designer.cs">
+      <DependentUpon>SupplierBidBySupplierRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eTendering\SupplierContactRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\SupplierContactRep.Designer.cs">
+      <DependentUpon>SupplierContactRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eTendering\SupplierOrderRep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="eTendering\SupplierOrderRep.Designer.cs">
+      <DependentUpon>SupplierOrderRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="eTendering\SupplierBidTenderCommitteeRep.resx">
+      <DependentUpon>SupplierBidTenderCommitteeRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eTendering\SupplierBidRecommendedRep.resx">
+      <DependentUpon>SupplierBidRecommendedRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eTendering\PublishedRFQSupplierRep.resx">
+      <DependentUpon>PublishedRFQSupplierRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eTendering\SupplierBidBySupplierRep.resx">
+      <DependentUpon>SupplierBidBySupplierRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eTendering\SupplierContactRep.resx">
+      <DependentUpon>SupplierContactRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eTendering\SupplierOrderRep.resx">
+      <DependentUpon>SupplierOrderRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Admin.DAL\GARMCO.AMS.B2B.Admin.DAL.csproj">
+      <Project>{690b5a01-7695-46eb-951f-d1d57b4ba8b1}</Project>
+      <Name>GARMCO.AMS.B2B.Admin.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Utility\GARMCO.AMS.B2B.Utility.csproj">
+      <Project>{cdd01b68-c40d-4869-a64b-80952f4e3f3e}</Project>
+      <Name>GARMCO.AMS.B2B.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Lib\GARMCO.Common.Object.dll" />
+    <Content Include="Lib\GARMCO.Common.Utility.dll" />
+    <Content Include="Lib\Telerik.Reporting.dll" />
+    <Content Include="Lib\Telerik.ReportViewer.WebForms.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

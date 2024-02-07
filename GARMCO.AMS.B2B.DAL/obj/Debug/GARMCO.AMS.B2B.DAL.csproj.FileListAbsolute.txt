@@ -1,0 +1,18 @@
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\GARMCO.AMS.B2B.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\GARMCO.AMS.B2B.DAL.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\Dapper.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\bin\Debug\Dapper.xml
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.csprojResolveAssemblyReference.cache
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\GARMCO.AMS.B2B.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\GARMCO.AMS.B2B.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\Dapper.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\Infrastructure.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\Infrastructure.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\bin\Debug\Dapper.xml
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.DAL\obj\Debug\GARMCO.AMS.B2B.DAL.pdb

@@ -1,0 +1,7 @@
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\bin\Release\GARMCO.AMS.B2B.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\bin\Release\GARMCO.AMS.B2B.Utility.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\bin\Release\GARMCO.Common.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\bin\Release\SautinSoft.HtmlToRtf.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\bin\Release\SautinSoft.RtfToHtml.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\obj\Release\GARMCO.AMS.B2B.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Utility\obj\Release\GARMCO.AMS.B2B.Utility.pdb

@@ -1,0 +1,9 @@
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\bin\Debug\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\obj\Debug\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\Infrastructure\obj\Debug\Infrastructure.pdb

@@ -1,0 +1,16 @@
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.AMS.B2B.Admin.DAL.dll.config
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.AMS.B2B.Admin.DAL.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\Dapper.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.AMS.B2B.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.Common.Object.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.Common.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\SautinSoft.HtmlToRtf.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\SautinSoft.RtfToHtml.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\GARMCO.AMS.B2B.Utility.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Release\Dapper.xml
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Release\GARMCO.AMS.B2B.Admin.DAL.csprojResolveAssemblyReference.cache
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Release\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Release\GARMCO.AMS.B2B.Admin.DAL.pdb

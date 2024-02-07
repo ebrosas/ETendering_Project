@@ -1,0 +1,284 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SexySite.Master.cs" Inherits="GARMCO.AMS.B2B.eTendering.Website.CommonObject.SexySite" EnableTheming="false" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>GARMCO E-Service</title>
+    <!-- Stylesheets -->
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <!-- font-awesome css -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <!-- flaticon css -->
+    <link href="../css/flaticon.css" rel="stylesheet" />
+    <!-- factoryplus-icons css -->
+    <link href="../css/factoryplus-icons.css" rel="stylesheet" />
+    <!-- animate css -->
+    <link href="../css/animate.css" rel="stylesheet" />
+    <!-- owl.carousel css -->
+    <link href="../css/owl.css" rel="stylesheet" />
+    <!-- fancybox css -->
+    <link href="../css/hover.css" rel="stylesheet" />
+    <link href="../css/frontend.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="icon" href="http://garmco.com/wp-content/uploads/2018/07/cropped-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="http://garmco.com/wp-content/uploads/2018/07/cropped-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://garmco.com/wp-content/uploads/2018/07/cropped-favicon-180x180.png" />
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/responsive.css" rel="stylesheet" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+<body class="page-template page-template-template-fullwidth page-template-template-fullwidth-php page page-parent full-content header-sticky hide-topbar-mobile header-transparent header-v2 ">
+    <div id="page" class="hfeed site">
+        <!-- Preloader-->
+        <div class="preloader"></div>
+        <!-- topbar -->
+        <div id="topbar" class="topbar hidden-md hidden-sm hidden-xs">
+            <div class="container">
+
+                <div class="topbar-left topbar-widgets text-left clearfix topbar-office">
+                    <a href="http://garmco.com/"><img width="24" height="24" src="http://garmco.com/wp-content/uploads/sites/2/2018/08/bahrain-flag-24x24.png" class="menu-image menu-image-title-after" alt="" />Back to Bahrain Site</a>
+                </div>
+
+                <div class="topbar-right topbar-widgets text-right clearfix">
+                    <div class="topbar-right topbar-widgets text-right clearfix">
+                        <div id="custom_html-9" class="widget_text widget widget_custom_html">
+                            <div class="widget induscity-office-location-widget">
+                                <div class="office-location clearfix">
+                                    <ul class="office-1 topbar-office active" id="cargohub-office-1">
+                                        <li class="phone"><a href="tel:+973 1773 1000"><i class="fa fa-phone"></i>+973 1773 1000 </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar end -->
+        <!-- masthead -->
+        <div id="mf-header-minimized" class="mf-header-minimized mf-header-v5"></div>
+        <header id="masthead" class="site-header clearfix">
+            <div class="header-main clearfix">
+                <div class="site-contact">
+                    <div class="container">
+                        <div class="row menu-row">
+                            <div class="site-logo col-md-9 col-sm-9 col-xs-9">
+                                <a href="https://garmco.com" class="logo">
+                                    <img src="https://garmco.com/wp-content/uploads/2018/07/White-Logo.png" alt="Garmco" class="logo" />
+                                </a>
+                                <h1 class="site-title"><a href="#" rel="home">GARMCO</a></h1>
+                                <h2 class="site-description">ADDING VALUE TO ALUMINIUM</h2>
+                            </div>
+                            <div class="site-extra-text hidden-md hidden-sm hidden-xs">
+                                <div class="widget induscity-social-links-widget">
+                                    <a href="https://www.youtube.com/channel/UCSJNjOUgzoUBhUZDDaiV4Dg" class="share-youtube tooltip-enable social" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    <a href="https://www.linkedin.com/company/garmco/" class="share-linkedin tooltip-enable social" rel="nofollow" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                                <div class="widget_text widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget">
+                                        <div class="header-contact mail">
+                                            <div>
+                                                <h5><a href=" https://goo.gl/maps/N3eHdcFBowL2" target="_blank">GARMCO, North Industrial Area,</a> </h5>
+                                                <a href=" https://goo.gl/maps/N3eHdcFBowL2" target="_blank">Manama, P.O. Box 20725,<br>
+                                                    Kingdom of Bahrain </a>
+                                            </div>
+                                            <a href=" https://goo.gl/maps/N3eHdcFBowL2" target="_blank"><i class="fa fa-map-marker"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar-toggle col-md-3 col-sm-3 col-xs-3">
+                                <span id="mf-navbar-toggle" class="navbar-icon">
+                                    <span class="navbars-line"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="site-menu container">
+                    <nav id="site-navigation" class="main-nav primary-nav nav">
+                        <ul class="menu">
+                            <li><a href="/">Home</a></li>
+                            <li class="current-menu-item"><a href="login.html">Login</a></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/Register.aspx" Text="Register" /></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/ContactUs.aspx" Text="Contact Us" /></li>
+                            <li><a href="https://etendering.garmco.com/e-Tendering%20FAQ.pdf" target="_blank">Supplier's User Manual</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--<div class="mf-header-item-button"><a href="#" class="mf-btn">Get a Quote</a></div>-->
+                </div>
+            </div>
+        </header>
+        <!-- masthead end -->
+        <!--page-header-->
+        <div class="page-header has-image">
+            <div class="page-header-content">
+                <div class="featured-image" style='background-position: 50% -190px; background-image: url("https://garmco.com/wp-content/uploads/2018/08/ContactPageHeaderImage.jpg");'></div>
+                <div class="container">
+                    <h1>Login</h1>
+                </div>
+            </div>
+        </div>
+        <!--page-header  end-->
+        <!-- Log in-->
+        <div id="content" class="site-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="woocommerce">
+                        <h2 class="mf-heading-primary">Login</h2>
+                        <form runat="server" class="login">
+                            <asp:ScriptManager runat="server" />
+                            <div>
+                                <asp:ContentPlaceHolder ID="contentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mf_empty_space_lg" style="height: 50px"></div>
+                    <h2>GARMCO E-tendering Is the Tool That You Need for Placing Your Bids at the Touch of Your Finger Tips....</h2>
+                    <p>24 Hours a Day, 7 Days a week </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Log in end-->
+        <div class="mf-service-banner" style="background-image: url(&quot;http://garmco.com/wp-content/uploads/2018/07/CTAbackgroundimage-1.jpg&quot;); background-position: 50% 97px;">
+            <div class="container">
+                <div class="mf-service-banner-content">
+                    <div class="mf-service-banner-content-el">Don't have an account yet?</div>
+                    <asp:HyperLink ID="lnkRegister" runat="server" CssClass="mf-btn banner-btn" NavigateUrl="~/Register.aspx" Text="Register Here" />
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer-widgets" class="footer-widgets widgets-area">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-3">
+
+                        <div class="widget_text widget">
+                            <div id="media_image-2" class="widget widget_media_image">
+                                <a href="/">
+                                    <img width="224" height="300" src="http://garmco.com/wp-content/uploads/2018/07/GarmcoHeaderLogo1-224x300.png" class="image wp-image-4608  attachment-medium size-medium" alt="Footer Logo" style="max-width: 100%; height: auto;" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-3">
+
+                        <div class="widget_text widget">
+                            <h4 class="widget-title">About GARMCO</h4>
+                            <div class="textwidget">Bahrain-based Gulf Aluminium Rolling Mill Company (GARMCO) is the first and one of the largest downstream aluminium facilities in the Middle East for rolling, cutting and fabricating aluminium.</div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget widget_mf-custom-menu">
+                            <h4 class="widget-title">Usefull Links</h4>
+                            <div class="custom-menu-area">
+                                <div class="custom-menu custom-menu-1">
+                                    <ul class="menu">
+                                        <li><a href="https://garmco.com/about/">About Us</a></li>
+                                        <li><a href="https://garmco.com/global-presence/">Global Presence	</a></li>
+                                        <li><a href="https://garmco.com/products/">Products</a></li>
+                                        <li><a href="https://garmco.com/news/">News</a></li>
+                                        <li><a href="https://garmco.com/careers/">Career</a></li>
+                                        <li><a href="https://garmco.com/contact/">Contact Us</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-4 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget_text widget">
+                            <h4 class="widget-title">Contact Details</h4>
+                            <div class="textwidget">
+                                <div class="footer-widget-contact">
+                                    <div class="detail address">
+                                        <a href="https://goo.gl/maps/N3eHdcFBowL2" target="_blank"><i class="fa fa-map-marker"></i></a>
+                                        <div>
+                                            <a href="https://goo.gl/maps/N3eHdcFBowL2">Gulf Aluminium Rolling Mill (GARMCO), North Sitra Industrial Area, P.O. Box 20725, Manama, Kingdom of Bahrain</a>
+                                        </div>
+                                    </div>
+                                    <div class="detail phone">
+                                        <i class="fa fa-phone"></i>
+                                        <div>
+                                            <a href="tel:+973 1773 1000">+973 1773 1000 </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer end -->
+        <!-- copyright -->
+        <footer class="site-footer">
+            <div class="container footer-info">
+                <div class="footer-copyright">
+                    Copyrights © <%= DateTime.Now.Year %> All Rights Reserved <a href="https://garmco.com/" target="_blank">GARMCO.</a>
+                </div>
+                <div class="text-right">
+                    <div class="socials footer-social">
+                        <a href="https://www.linkedin.com/company/garmco/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCSJNjOUgzoUBhUZDDaiV4Dg" target="_blank"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- copyright end-->
+    </div>
+    <!--End pagewrapper-->
+    <!--primary-mobile-nav-->
+    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
+        <div class="mobile-nav-content">
+            <a href="#" class="close-canvas-mobile-panel"></a>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li class="current-menu-item"><a href="login.html">Login</a></li>
+                <li><asp:HyperLink runat="server" NavigateUrl="~/Register.aspx" Text="Register" /></li>
+                <li><a href="contact.html">Contact Us </a></li>
+                <li><a href="https://etendering.garmco.com/e-Tendering%20FAQ.pdf" target="_blank">Supplier's User Manual</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="off-canvas-layer" class="off-canvas-layer"></div>
+    <!--primary-mobile-nav end-->
+    <!--Scroll to top-->
+    <!-- jquery Liabrary -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+    <%--<script src="js/jquery-1.12.4.min.js"></script>--%>
+    <script src="../Scripts/jquery-3.5.0.min.js"></script>
+    <!-- bootstrap v3.3.6 js -->
+    <script src="js/bootstrap.min.js"></script>
+    <%--<script src="Scripts/bootstrap.bundle.min.js"></script>--%>
+    <!-- fancybox js 
+  -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.js"></script>
+    <!-- counter js 
+    <!-- validate js -->
+    <script src="js/validate.js"></script>
+    <!-- switcher js -->
+    
+    <!-- google map -->
+   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+    <script src="js/gmap.js"></script>
+    <script src="js/map-helper.js"></script>    script JS  -->
+    <script src="js/scripts.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

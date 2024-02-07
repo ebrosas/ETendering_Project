@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<message>
+	&lt;b&gt;Note:&lt;/b&gt; This is an auto-generated email, please do not reply.
+
+
+	Dear {0},
+
+	Thank you for registering to GARMCO e-Tendering Website. Kindly allow our personnel to process your form within 3~5 business days.
+	
+	========== REGISTRATION INFO ==========
+	e-Mail: {1}
+	password: {2}
+	
+	We will be sending you an e-mail once your registration has been process completely.
+	
+	
+	Yours sincerely,
+	&lt;b&gt;GARMCO Customer Service&lt;/b&gt;
+	&lt;a href="www.garmco.com"&gt;www.garmco.com&lt;/a&gt;
+	&lt;a href="https://etendering.garmco.com"&gt;https://etendering.garmco.com&lt;/a&gt;
+</message>

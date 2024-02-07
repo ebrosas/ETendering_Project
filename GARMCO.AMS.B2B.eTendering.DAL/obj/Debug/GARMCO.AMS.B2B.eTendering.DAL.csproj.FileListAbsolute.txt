@@ -1,0 +1,26 @@
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.eTendering.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.eTendering.DAL.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\Dapper.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.Common.Object.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.Common.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\SautinSoft.HtmlToRtf.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\SautinSoft.RtfToHtml.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\Dapper.xml
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.csprojResolveAssemblyReference.cache
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.eTendering.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.eTendering.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\Dapper.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.Common.Object.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.Common.Utility.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\SautinSoft.HtmlToRtf.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\SautinSoft.RtfToHtml.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\bin\Debug\Dapper.xml
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.eTendering.DAL\obj\Debug\GARMCO.AMS.B2B.eTendering.DAL.pdb

@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D092CF39-1940-4CCD-8219-41F422BC883D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GARMCO.AMS.B2B.eTendering.Website</RootNamespace>
+    <AssemblyName>GARMCO.AMS.B2B.eTendering.Website</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GARMCO.Common.DAL.Employee, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\GARMCO.Common.DAL.Employee.dll</HintPath>
+    </Reference>
+    <Reference Include="GARMCO.Common.Object, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\GARMCO.Common.Object.dll</HintPath>
+    </Reference>
+    <Reference Include="GARMCO.Common.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\GARMCO.Common.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SautinSoft.HtmlToRtf, Version=4.8.9.21, Culture=neutral, PublicKeyToken=bce916f184012969, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\SautinSoft.HtmlToRtf.dll</HintPath>
+    </Reference>
+    <Reference Include="SautinSoft.RtfToHtml, Version=3.5.9.27, Culture=neutral, PublicKeyToken=c666a5e96a3d5457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\SautinSoft.RtfToHtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Reporting, Version=10.2.16.1025, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=10.2.16.1025, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2013.2.611.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2013.2.611.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ClosedCallForTenders.aspx" />
+    <Content Include="Account\JDEUpload\Empty.txt" />
+    <Content Include="Account\Profile\Empty.txt" />
+    <Content Include="Account\PublishedRFQView.aspx" />
+    <Content Include="Account\SupplierUpload\Empty.txt" />
+    <Content Include="Account\ViewTender.aspx" />
+    <Content Include="Account\ReviseTender.aspx" />
+    <Content Include="Account\Default.aspx" />
+    <Content Include="Account\Profile.aspx" />
+    <Content Include="Account\SupplierContact.aspx" />
+    <Content Include="Account\SupplierOrderAlternative.aspx" />
+    <Content Include="Account\SupplierOrderAttachment.aspx" />
+    <Content Include="Activation.aspx" />
+    <Content Include="App_Themes\Standard\stylesheet.css" />
+    <Content Include="CommonObject\ConfirmDialog.aspx" />
+    <Content Include="CommonObject\OrderPrint.aspx" />
+    <Content Include="CommonObject\RFQDetailAttachment.aspx" />
+    <Content Include="CommonObject\SuccessDialog.aspx" />
+    <Content Include="CommonObject\SupplierProdServLookup.aspx" />
+    <Content Include="CommonObject\UnderMaintenance.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Account\PlaceTender.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\factoryplus-icons.css" />
+    <Content Include="css\flaticon.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\frontend.css" />
+    <Content Include="css\hover.css" />
+    <Content Include="css\login.html" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\flaticon.css" />
+    <Content Include="fonts\flaticon.html" />
+    <Content Include="fonts\flaticon.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Index.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ErrorMessage.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="includes\images\add_f1.gif" />
+    <Content Include="includes\images\add_f3.gif" />
+    <Content Include="includes\images\attach_f1.gif" />
+    <Content Include="includes\images\attach_f3.gif" />
+    <Content Include="includes\images\attach_small_f1.gif" />
+    <Content Include="includes\images\attach_small_f3.gif" />
+    <Content Include="includes\images\delete_f1.gif" />
+    <Content Include="includes\images\delete_f3.gif" />
+    <Content Include="includes\images\edit_f3.gif" />
+    <Content Include="includes\images\exception.jpg" />
+    <Content Include="includes\images\garmco_logo.jpg" />
+    <Content Include="includes\images\headerbk.jpg" />
+    <Content Include="includes\images\login.gif" />
+    <Content Include="includes\images\logo.jpg" />
+    <Content Include="includes\images\noaccess.gif" />
+    <Content Include="includes\images\search.gif" />
+    <Content Include="includes\images\toolFile_f1.gif" />
+    <Content Include="includes\images\toolFile_f3.gif" />
+    <Content Include="includes\images\toolText_f1.gif" />
+    <Content Include="includes\images\toolText_f3.gif" />
+    <Content Include="includes\images\under_maintenance.gif" />
+    <Content Include="includes\images\warning.gif" />
+    <Content Include="includes\TextToolFile.xml" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.12.4.min.js" />
+    <Content Include="js\owl.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\scripts.min.js" />
+    <Content Include="js\validate.js" />
+    <Content Include="Lib\GARMCO.Common.DAL.Employee.dll" />
+    <Content Include="Lib\GARMCO.Common.Object.dll" />
+    <Content Include="Lib\GARMCO.Common.Utility.dll" />
+    <Content Include="Lib\SautinSoft.HtmlToRtf.dll" />
+    <Content Include="Lib\SautinSoft.RtfToHtml.dll" />
+    <Content Include="Lib\Telerik.Reporting.dll" />
+    <Content Include="Lib\Telerik.ReportViewer.WebForms.dll" />
+    <Content Include="Lib\Telerik.Web.UI.dll" />
+    <Content Include="Lib\Telerik.Web.UI.Skins.dll" />
+    <Content Include="Messages\ForgotPassword.xml" />
+    <Content Include="Messages\TechnicalSupport.xml" />
+    <Content Include="Messages\FeedbackAcknowledgement.xml" />
+    <Content Include="Messages\SupplierBid.xml" />
+    <Content Include="Messages\RegistrationSuccess.xml" />
+    <Content Include="Messages\Registration.xml" />
+    <Content Include="Register.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\contact.js" />
+    <Content Include="App_Themes\Standard\Standard.skin" />
+    <Content Include="CommonObject\SexySite.Master" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\index.js.flow" />
+    <Content Include="Scripts\esm\popper.min.js.map" />
+    <Content Include="Scripts\esm\popper.js.map" />
+    <Content Include="Scripts\esm\popper-utils.min.js.map" />
+    <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Scripts\jquery-3.5.0.js" />
+    <Content Include="Scripts\jquery-3.5.0.min.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.min.js" />
+    <Content Include="Scripts\orderPrint.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\src\index.js" />
+    <Content Include="Scripts\src\methods\defaults.js" />
+    <Content Include="Scripts\src\methods\destroy.js" />
+    <Content Include="Scripts\src\methods\disableEventListeners.js" />
+    <Content Include="Scripts\src\methods\enableEventListeners.js" />
+    <Content Include="Scripts\src\methods\placements.js" />
+    <Content Include="Scripts\src\methods\update.js" />
+    <Content Include="Scripts\src\modifiers\applyStyle.js" />
+    <Content Include="Scripts\src\modifiers\arrow.js" />
+    <Content Include="Scripts\src\modifiers\computeStyle.js" />
+    <Content Include="Scripts\src\modifiers\flip.js" />
+    <Content Include="Scripts\src\modifiers\hide.js" />
+    <Content Include="Scripts\src\modifiers\index.js" />
+    <Content Include="Scripts\src\modifiers\inner.js" />
+    <Content Include="Scripts\src\modifiers\keepTogether.js" />
+    <Content Include="Scripts\src\modifiers\offset.js" />
+    <Content Include="Scripts\src\modifiers\preventOverflow.js" />
+    <Content Include="Scripts\src\modifiers\shift.js" />
+    <Content Include="Scripts\src\utils\clockwise.js" />
+    <Content Include="Scripts\src\utils\computeAutoPlacement.js" />
+    <Content Include="Scripts\src\utils\debounce.js" />
+    <Content Include="Scripts\src\utils\find.js" />
+    <Content Include="Scripts\src\utils\findCommonOffsetParent.js" />
+    <Content Include="Scripts\src\utils\findIndex.js" />
+    <Content Include="Scripts\src\utils\getBordersSize.js" />
+    <Content Include="Scripts\src\utils\getBoundaries.js" />
+    <Content Include="Scripts\src\utils\getBoundingClientRect.js" />
+    <Content Include="Scripts\src\utils\getClientRect.js" />
+    <Content Include="Scripts\src\utils\getFixedPositionOffsetParent.js" />
+    <Content Include="Scripts\src\utils\getOffsetParent.js" />
+    <Content Include="Scripts\src\utils\getOffsetRect.js" />
+    <Content Include="Scripts\src\utils\getOffsetRectRelativeToArbitraryNode.js" />
+    <Content Include="Scripts\src\utils\getOppositePlacement.js" />
+    <Content Include="Scripts\src\utils\getOppositeVariation.js" />
+    <Content Include="Scripts\src\utils\getOuterSizes.js" />
+    <Content Include="Scripts\src\utils\getParentNode.js" />
+    <Content Include="Scripts\src\utils\getPopperOffsets.js" />
+    <Content Include="Scripts\src\utils\getReferenceNode.js" />
+    <Content Include="Scripts\src\utils\getReferenceOffsets.js" />
+    <Content Include="Scripts\src\utils\getRoot.js" />
+    <Content Include="Scripts\src\utils\getRoundedOffsets.js" />
+    <Content Include="Scripts\src\utils\getScroll.js" />
+    <Content Include="Scripts\src\utils\getScrollParent.js" />
+    <Content Include="Scripts\src\utils\getStyleComputedProperty.js" />
+    <Content Include="Scripts\src\utils\getSupportedPropertyName.js" />
+    <Content Include="Scripts\src\utils\getViewportOffsetRectRelativeToArtbitraryNode.js" />
+    <Content Include="Scripts\src\utils\getWindow.js" />
+    <Content Include="Scripts\src\utils\getWindowSizes.js" />
+    <Content Include="Scripts\src\utils\includeScroll.js" />
+    <Content Include="Scripts\src\utils\index.js" />
+    <Content Include="Scripts\src\utils\isBrowser.js" />
+    <Content Include="Scripts\src\utils\isFixed.js" />
+    <Content Include="Scripts\src\utils\isFunction.js" />
+    <Content Include="Scripts\src\utils\isIE.js" />
+    <Content Include="Scripts\src\utils\isModifierEnabled.js" />
+    <Content Include="Scripts\src\utils\isModifierRequired.js" />
+    <Content Include="Scripts\src\utils\isNumeric.js" />
+    <Content Include="Scripts\src\utils\isOffsetContainer.js" />
+    <Content Include="Scripts\src\utils\removeEventListeners.js" />
+    <Content Include="Scripts\src\utils\runModifiers.js" />
+    <Content Include="Scripts\src\utils\setAttributes.js" />
+    <Content Include="Scripts\src\utils\setStyles.js" />
+    <Content Include="Scripts\src\utils\setupEventListeners.js" />
+    <Content Include="Scripts\supplierOrderAlt.js" />
+    <Content Include="Scripts\rfqattachment.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\supplierProdServ.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Scripts\warning.js" />
+    <Content Include="Success.aspx" />
+    <Content Include="Temp\Empty.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ClosedCallForTenders.aspx.cs">
+      <DependentUpon>ClosedCallForTenders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ClosedCallForTenders.aspx.designer.cs">
+      <DependentUpon>ClosedCallForTenders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PublishedRFQView.aspx.cs">
+      <DependentUpon>PublishedRFQView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PublishedRFQView.aspx.designer.cs">
+      <DependentUpon>PublishedRFQView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ViewTender.aspx.cs">
+      <DependentUpon>ViewTender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ViewTender.aspx.designer.cs">
+      <DependentUpon>ViewTender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ReviseTender.aspx.cs">
+      <DependentUpon>ReviseTender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ReviseTender.aspx.designer.cs">
+      <DependentUpon>ReviseTender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\SupplierContact.aspx.cs">
+      <DependentUpon>SupplierContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\SupplierContact.aspx.designer.cs">
+      <DependentUpon>SupplierContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\SupplierOrderAlternative.aspx.cs">
+      <DependentUpon>SupplierOrderAlternative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\SupplierOrderAlternative.aspx.designer.cs">
+      <DependentUpon>SupplierOrderAlternative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\SupplierOrderAttachment.aspx.cs">
+      <DependentUpon>SupplierOrderAttachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\SupplierOrderAttachment.aspx.designer.cs">
+      <DependentUpon>SupplierOrderAttachment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activation.aspx.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activation.aspx.designer.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\BaseWebForm.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\ConfirmDialog.aspx.cs">
+      <DependentUpon>ConfirmDialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\ConfirmDialog.aspx.designer.cs">
+      <DependentUpon>ConfirmDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\SexySite.Master.cs">
+      <DependentUpon>SexySite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\SexySite.Master.designer.cs">
+      <DependentUpon>SexySite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\SiteOffline.Master.cs">
+      <DependentUpon>SiteOffline.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\SiteOffline.Master.designer.cs">
+      <DependentUpon>SiteOffline.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\FileHandler.ashx.cs">
+      <DependentUpon>FileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\OrderPrint.aspx.cs">
+      <DependentUpon>OrderPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\OrderPrint.aspx.designer.cs">
+      <DependentUpon>OrderPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\RFQDetailAttachment.aspx.cs">
+      <DependentUpon>RFQDetailAttachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\RFQDetailAttachment.aspx.designer.cs">
+      <DependentUpon>RFQDetailAttachment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\SuccessDialog.aspx.cs">
+      <DependentUpon>SuccessDialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\SuccessDialog.aspx.designer.cs">
+      <DependentUpon>SuccessDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\SupplierProdServLookup.aspx.cs">
+      <DependentUpon>SupplierProdServLookup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\SupplierProdServLookup.aspx.designer.cs">
+      <DependentUpon>SupplierProdServLookup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonObject\UnderMaintenance.aspx.cs">
+      <DependentUpon>UnderMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonObject\UnderMaintenance.aspx.designer.cs">
+      <DependentUpon>UnderMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PlaceTender.aspx.cs">
+      <DependentUpon>PlaceTender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PlaceTender.aspx.designer.cs">
+      <DependentUpon>PlaceTender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorMessage.aspx.cs">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorMessage.aspx.designer.cs">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UILookup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CommonObject\Site.Master" />
+    <Content Include="Account\Web.config" />
+    <Content Include="CommonObject\FileHandler.ashx" />
+    <Content Include="CommonObject\Web.config" />
+    <Content Include="CommonObject\SiteOffline.Master" />
+    <Content Include="e-Tendering FAQ.pdf" />
+    <Content Include="garmcotc.pdf" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\flaticon.eot" />
+    <Content Include="fonts\flaticon.otf" />
+    <Content Include="fonts\flaticon.ttf" />
+    <Content Include="fonts\flaticon.woff" />
+    <Content Include="fonts\flaticon.woff2" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\GothamHTF-Bold.eot" />
+    <Content Include="fonts\GothamHTF-Bold.otf" />
+    <Content Include="fonts\GothamHTF-Bold.ttf" />
+    <Content Include="fonts\GothamHTF-Bold.woff" />
+    <Content Include="fonts\GothamHTF-Book.eot" />
+    <Content Include="fonts\GothamHTF-Book.ttf" />
+    <Content Include="fonts\GothamHTF-Book.woff" />
+    <None Include="Properties\PublishProfiles\ETenderingDeploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ETendering_Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\GRBHDEVT01.pubxml" />
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper.js.flow" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\jquery-3.5.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.5.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Admin.DAL\GARMCO.AMS.B2B.Admin.DAL.csproj">
+      <Project>{690b5a01-7695-46eb-951f-d1d57b4ba8b1}</Project>
+      <Name>GARMCO.AMS.B2B.Admin.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.DAL\GARMCO.AMS.B2B.DAL.csproj">
+      <Project>{9d92a413-b2ea-4495-9c2c-65a8f708fc23}</Project>
+      <Name>GARMCO.AMS.B2B.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.eTendering.DAL\GARMCO.AMS.B2B.eTendering.DAL.csproj">
+      <Project>{d57959b7-5a35-468d-9bd0-f53b7a879a75}</Project>
+      <Name>GARMCO.AMS.B2B.eTendering.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Report\GARMCO.AMS.B2B.Report.csproj">
+      <Project>{3d635376-b43e-4d84-a68f-12bfdaa34fc7}</Project>
+      <Name>GARMCO.AMS.B2B.Report</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GARMCO.AMS.B2B.Utility\GARMCO.AMS.B2B.Utility.csproj">
+      <Project>{cdd01b68-c40d-4869-a64b-80952f4e3f3e}</Project>
+      <Name>GARMCO.AMS.B2B.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49064/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

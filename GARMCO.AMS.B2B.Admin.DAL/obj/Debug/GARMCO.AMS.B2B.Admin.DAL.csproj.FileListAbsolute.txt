@@ -1,0 +1,32 @@
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.dll.config
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Dapper.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.Common.Object.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.Common.Utility.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\SautinSoft.HtmlToRtf.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\SautinSoft.RtfToHtml.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Dapper.xml
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.csprojResolveAssemblyReference.cache
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\NET Projects\eTendering_Hussain\eTendering\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.dll.config
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Admin.DAL.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Dapper.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.Common.Object.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.Common.Utility.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Infrastructure.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\SautinSoft.HtmlToRtf.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\SautinSoft.RtfToHtml.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\GARMCO.AMS.B2B.Utility.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Infrastructure.pdb
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\bin\Debug\Dapper.xml
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.dll
+C:\Users\ervin.GARMCO\OneDrive\Ervin Laptop Documents\MyProjects\ETendering_Project\GARMCO.AMS.B2B.Admin.DAL\obj\Debug\GARMCO.AMS.B2B.Admin.DAL.pdb

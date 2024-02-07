@@ -1,0 +1,70 @@
+﻿<root>
+	<tools name="MainToolbar">
+		<tool name="FontName"/>
+		<tool name="RealFontSize"/>
+		
+		<tool separator="true"/>
+
+		<tool name="ForeColor"/>
+		<tool name="BackColor"/>
+
+		<tool separator="true"/>
+
+		<tool name="Bold" shortcut="CTRL+B" />
+		<tool name="Italic" shortcut="CTRL+I" />
+		<tool name="Underline" shortcut="CTRL+U" />
+
+		<tool separator="true" />
+
+		<tool name="Undo" shortcut="CTRL+Z" />
+		<tool name="Redo" shortcut="CTRL+Y" />
+		
+		<tool separator="true" />
+
+		<tool name="InsertSymbol" />
+
+		<tool separator="true" />
+		
+		<tool name="JustifyLeft" />
+		<tool name="JustifyCenter" />
+		<tool name="JustifyRight" />
+
+		<tool separator="true" />
+
+		<tool name="InsertOrderedList" />
+		<tool name="InsertUnorderedList" />
+
+		<tool separator="true" />
+
+		<tool name="Indent" />
+		<tool name="Outdent" />
+
+		<tool separator="true" />
+
+		<tool name="Print" shortcut="CTRL+P" />
+		
+		<tool separator="true" />
+
+		<tool name="AjaxSpellCheck"/>
+	</tools>
+	<realFontSizes>
+	  <item value="8pt" />
+	  <item value="10pt" />
+	  <item value="12pt" />
+	  <item value="14pt" />
+	  <item value="16pt" />
+	  <item value="18pt" />
+	  <item value="20pt" />
+	  <item value="22pt" />
+	  <item value="24pt" />
+	  <item value="26pt" />
+	  <item value="28pt" />
+	  <item value="30pt" />
+	  <item value="32pt" />
+	  <item value="34pt" />
+	  <item value="36pt" />
+	  <item value="38pt" />
+	  <item value="40pt" />
+	  <item value="42pt" />
+	</realFontSizes>
+</root>

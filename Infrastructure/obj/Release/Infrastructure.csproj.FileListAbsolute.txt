@@ -1,0 +1,4 @@
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\bin\Release\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\bin\Release\Infrastructure.pdb
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\obj\Release\Infrastructure.dll
+C:\NET Projects\eTendering_Hussain\eTendering\Infrastructure\obj\Release\Infrastructure.pdb
